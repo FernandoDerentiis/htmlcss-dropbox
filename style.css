@@ -15,6 +15,66 @@
   max-width: 100%;
 }
 
-.upper-heade > .container {
+button {
+  display: inline-block;
+
+  padding: 5px;
+
+  background-color: rgb(42, 42, 219);
+  color: white;
+  border: 1px solid transparent;
+}
+
+.v-60 {
+  width: 60%;
+}
+
+.v-40 {
+  width: 40%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*  upper headr */
+
+.upper-header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.header-items li {
+  display: inline-block;
+  padding: 10px;
+  min-height: 50px;
+}
+/* hero */
+
+#hero .hero-content {
+  display: flex;
+}
+#hero {
+  background-color: rgb(174, 206, 238);
+}
+
+h1 {
+  font-size: 70px;
+}
+
+#hero .container {
+  position: relative;
+  top: 50px;
 }
